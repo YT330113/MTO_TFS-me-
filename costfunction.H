@@ -24,7 +24,7 @@ reduce(PowerDiss, sumOp<scalar>());
 //输出目标及约束值
 if (Pstream::master())
 { 
-   ofstream outfile1("VoluseChange.txt",std::ios::app);
+   ofstream outfile1("VoluseChange.txt",std::ios::app);           // 创建一个ofstream对象outfile1来管理输出流，app表示文件模式为追加到文件尾
    outfile1<<runTime.timeName()<<"    "<<V<<"\n";
    outfile1.close();
 

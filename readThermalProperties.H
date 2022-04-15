@@ -11,13 +11,13 @@ IOdictionary thermalProperties
     )
 );
 
-dimensionedScalar rhoc(thermalProperties.lookup("rhoc"));//rho_fluid*heat_capacity
-dimensionedScalar kf(thermalProperties.lookup("kf"));//Thermal Conductivity of fluid
-dimensionedScalar ks(thermalProperties.lookup("ks"));//Thermal Conductivity of solid
-dimensionedScalar Q(thermalProperties.lookup("Q"));// 体热源 Q/(rho*Cp)
+dimensionedScalar rhoc(thermalProperties.lookup("rhoc"));                   // 流体密度乘以比热容
+dimensionedScalar kf(thermalProperties.lookup("kf"));                               // 流体热传导系数
+dimensionedScalar ks(thermalProperties.lookup("ks"));                               // 固体热传导系数
+dimensionedScalar Q(thermalProperties.lookup("Q"));                                 // 体热源 Q/(rho*Cp)
 //dimensionedScalar Q("Q", dimensionSet(0,0,-1,1,0,0,0),100000000.0/4180000);
 
-volScalarField DT
+volScalarField DT                                                                                                               // 体标量场热传导系数
 (
     IOobject
     (
@@ -27,10 +27,10 @@ volScalarField DT
         IOobject::READ_IF_PRESENT,
         IOobject::AUTO_WRITE
     ),
-    (ks+(kf-ks)*xh*(1+qu)/(qu+xh))/rhoc
+    (ks+(kf-ks)*xh*(1+qu)/(qu+xh))/rhoc                                                                     // 热传导系数k插值
 );
 Info<< "Reading field T\n" << endl;
-    volScalarField T
+    volScalarField T                                                                       // 定义温度场T
     (
         IOobject
         (
@@ -43,7 +43,7 @@ Info<< "Reading field T\n" << endl;
         mesh
     );
 Info<< "Reading field Tb\n" << endl;
-   volScalarField Tb
+   volScalarField Tb                                                                       // 定义伴随温度场Tb
    (
        IOobject
        (
@@ -55,7 +55,7 @@ Info<< "Reading field Tb\n" << endl;
        ),
        mesh
    ); 
-volScalarField T2(T);
+volScalarField T2(T);                                                                    // T2 应该没有用到
 volScalarField fsensMeanT                                                       // 定义体标量场fsensMeanT，平均温度对x的灵敏度
 (
     IOobject
