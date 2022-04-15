@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ofextension: debug solver",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "/home/yantao/OpenFOAM/yantao-6/platforms/linux64GccDPInt32Opt/bin/MTO_TFS",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "/home/yantao/MTO/MTO_TFS/MTO_TFS/MTO_TFS/debug_case",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "ofextension: debug solver",
+      "miDebuggerPath": "${workspaceFolder}/.vscode/of-gdb.sh"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include",
+        "/home/yantao/PETSc/petsc-3.11.1/include",
+        "/opt/openfoam6/src/OSspecific/POSIX/lnInclude",
+        "/opt/openfoam6/src/OpenFOAM/lnInclude",
+        "/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude",
+        "/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude",
+        "/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude",
+        "/opt/openfoam6/src/finiteVolume/lnInclude",
+        "/opt/openfoam6/src/meshTools/lnInclude",
+        "/opt/openfoam6/src/transportModels",
+        "/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel",
+        "./**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

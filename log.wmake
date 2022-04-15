@@ -1,0 +1,1212 @@
+Making dependency list for source file MTO_TFS.C
+Making dependency list for source file tractionDisplacementFvPatchVectorField.C
+could not open file tractionDisplacementFvPatchVectorField.H for source file tractionDisplacement/tractionDisplacementFvPatchVectorField.C due to No such file or directory
+Making dependency list for source file adjointOutletVelocityPowerFvPatchVectorField.C
+could not open file adjointOutletVelocityPowerFvPatchVectorField.H for source file adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C due to No such file or directory
+Making dependency list for source file adjointOutletPressurePowerFvPatchScalarField.C
+could not open file adjointOutletPressurePowerFvPatchScalarField.H for source file adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C due to No such file or directory
+Making dependency list for source file adjointOutletVelocityHeatFvPatchVectorField.C
+could not open file adjointOutletVelocityHeatFvPatchVectorField.H for source file adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.C due to No such file or directory
+Making dependency list for source file adjointOutletPressureHeatFvPatchScalarField.C
+could not open file adjointOutletPressureHeatFvPatchScalarField.H for source file adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.C due to No such file or directory
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude -I/home/yantao/PETSc/petsc-3.11.1/include -I/home/yantao/PETSc/petsc-3.11.1/include/mpiuni -I/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.C -o Make/linux64GccDPInt32Opt/adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude -I/home/yantao/PETSc/petsc-3.11.1/include -I/home/yantao/PETSc/petsc-3.11.1/include/mpiuni -I/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.C -o Make/linux64GccDPInt32Opt/adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude -I/home/yantao/PETSc/petsc-3.11.1/include -I/home/yantao/PETSc/petsc-3.11.1/include/mpiuni -I/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.C -o Make/linux64GccDPInt32Opt/adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude -I/home/yantao/PETSc/petsc-3.11.1/include -I/home/yantao/PETSc/petsc-3.11.1/include/mpiuni -I/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.C -o Make/linux64GccDPInt32Opt/adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude -I/home/yantao/PETSc/petsc-3.11.1/include -I/home/yantao/PETSc/petsc-3.11.1/include/mpiuni -I/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c tractionDisplacement/tractionDisplacementFvPatchVectorField.C -o Make/linux64GccDPInt32Opt/tractionDisplacement/tractionDisplacementFvPatchVectorField.o
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude -I/home/yantao/PETSc/petsc-3.11.1/include -I/home/yantao/PETSc/petsc-3.11.1/include/mpiuni -I/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -c MTO_TFS.C -o Make/linux64GccDPInt32Opt/MTO_TFS.o
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:328:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscmath.h: In function ‘PetscReal PetscPowRealInt(PetscReal, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscmath.h:727:25: warning: use of old-style cast [-Wold-style-cast]
+     base  = ((PetscReal)1)/base;
+                         ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscmath.h: In function ‘PetscScalar PetscPowScalarInt(PetscScalar, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscmath.h:742:25: warning: use of old-style cast [-Wold-style-cast]
+     base  = ((PetscReal)1)/base;
+                         ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h: In function ‘PetscErrorCode PetscLogFlops(PetscLogDouble)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h:209:22: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (n < 0) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"Cannot log negative flops");
+                      ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h: In function ‘PetscErrorCode PetscMPITypeSize(PetscLogDouble*, PetscMPIInt, MPI_Datatype)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:92:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_DATATYPE_NULL  ((MPI_Datatype)0x0c000000)
+                                           ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:92:43: note: in definition of macro ‘MPI_DATATYPE_NULL’
+ #define MPI_DATATYPE_NULL  ((MPI_Datatype)0x0c000000)
+                                           ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h:330:41: note: in expansion of macro ‘CHKERRQ’
+   _myierr = MPI_Type_size(type,&mysize);CHKERRQ(_myierr);
+                                         ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1515:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h:331:42: warning: use of old-style cast [-Wold-style-cast]
+   *buff += (PetscLogDouble) (count*mysize);
+                                          ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h: In function ‘PetscErrorCode PetscMPITypeSizeComm(MPI_Comm, PetscLogDouble*, PetscMPIInt*, MPI_Datatype)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:92:43: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_DATATYPE_NULL  ((MPI_Datatype)0x0c000000)
+                                           ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:92:43: note: in definition of macro ‘MPI_DATATYPE_NULL’
+ #define MPI_DATATYPE_NULL  ((MPI_Datatype)0x0c000000)
+                                           ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h:341:43: note: in expansion of macro ‘CHKERRQ’
+   _myierr = MPI_Comm_size(comm,&commsize);CHKERRQ(_myierr);
+                                           ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h:342:41: note: in expansion of macro ‘CHKERRQ’
+   _myierr = MPI_Type_size(type,&mysize);CHKERRQ(_myierr);
+                                         ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1515:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petsclog.h:344:48: warning: use of old-style cast [-Wold-style-cast]
+     *buff += (PetscLogDouble) (counts[p]*mysize);
+                                                ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscMemcpy(void*, const void*, size_t)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1617:24: warning: use of old-style cast [-Wold-style-cast]
+   size_t al = (size_t) a,bl = (size_t) b;
+                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1617:40: warning: use of old-style cast [-Wold-style-cast]
+   size_t al = (size_t) a,bl = (size_t) b;
+                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1618:24: warning: use of old-style cast [-Wold-style-cast]
+   size_t nl = (size_t) n;
+                        ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1620:28: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (n > 0 && !b) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_NULL,"Trying to copy from a null pointer");
+                            ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1621:28: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (n > 0 && !a) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_NULL,"Trying to copy to a null pointer");
+                            ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:210:58: note: in definition of macro ‘SETERRQ3’
+ #define SETERRQ3(comm,ierr,s,a1,a2,a3) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1,a2,a3)
+                                                          ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1627:66: note: in expansion of macro ‘PETSC_COMM_SELF’
+     if ((al > bl && (al - bl) < nl) || (bl - al) < nl)  SETERRQ3(PETSC_COMM_SELF,PETSC_ERR_ARG_INCOMP,"Memory regions overlap: either use PetscMemmov()\n\
+                                                                  ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1650:21: warning: use of old-style cast [-Wold-style-cast]
+     memcpy((char*)(a),(char*)(b),n);
+                     ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1650:32: warning: use of old-style cast [-Wold-style-cast]
+     memcpy((char*)(a),(char*)(b),n);
+                                ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscMemzero(void*, size_t)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1684:21: note: in expansion of macro ‘PETSC_COMM_SELF’
+     if (!a) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_NULL,"Trying to zero at a null pointer");
+                     ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1701:21: warning: use of old-style cast [-Wold-style-cast]
+       memset((char*)a,0,n);
+                     ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscBLASIntCast(PetscInt, PetscBLASInt*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1882:25: warning: use of old-style cast [-Wold-style-cast]
+   *b =  (PetscBLASInt)(a);
+                         ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscMPIIntCast(PetscInt, PetscMPIInt*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1910:24: warning: use of old-style cast [-Wold-style-cast]
+   *b =  (PetscMPIInt)(a);
+                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscInt PetscRealIntMultTruncate(PetscReal, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1951:36: warning: use of old-style cast [-Wold-style-cast]
+   r  =  (PetscInt64) (a*(PetscReal)b);
+                                    ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1951:37: warning: use of old-style cast [-Wold-style-cast]
+   r  =  (PetscInt64) (a*(PetscReal)b);
+                                     ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1953:21: warning: use of old-style cast [-Wold-style-cast]
+   return (PetscInt) r;
+                     ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscInt PetscIntMultTruncate(PetscInt, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1917:46: warning: use of old-style cast [-Wold-style-cast]
+ #define PetscInt64Mult(a,b)   ((PetscInt64)(a))*((PetscInt64)(b))
+                                              ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1987:9: note: in expansion of macro ‘PetscInt64Mult’
+   r  =  PetscInt64Mult(a,b);
+         ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1917:64: warning: use of old-style cast [-Wold-style-cast]
+ #define PetscInt64Mult(a,b)   ((PetscInt64)(a))*((PetscInt64)(b))
+                                                                ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1987:9: note: in expansion of macro ‘PetscInt64Mult’
+   r  =  PetscInt64Mult(a,b);
+         ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1989:21: warning: use of old-style cast [-Wold-style-cast]
+   return (PetscInt) r;
+                     ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscInt PetscIntSumTruncate(PetscInt, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2021:22: warning: use of old-style cast [-Wold-style-cast]
+   r  =  ((PetscInt64)a) + ((PetscInt64)b);
+                      ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2021:40: warning: use of old-style cast [-Wold-style-cast]
+   r  =  ((PetscInt64)a) + ((PetscInt64)b);
+                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2023:21: warning: use of old-style cast [-Wold-style-cast]
+   return (PetscInt) r;
+                     ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscIntMultError(PetscInt, PetscInt, PetscInt*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1917:46: warning: use of old-style cast [-Wold-style-cast]
+ #define PetscInt64Mult(a,b)   ((PetscInt64)(a))*((PetscInt64)(b))
+                                              ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2055:9: note: in expansion of macro ‘PetscInt64Mult’
+   r  =  PetscInt64Mult(a,b);
+         ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1917:64: warning: use of old-style cast [-Wold-style-cast]
+ #define PetscInt64Mult(a,b)   ((PetscInt64)(a))*((PetscInt64)(b))
+                                                                ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2055:9: note: in expansion of macro ‘PetscInt64Mult’
+   r  =  PetscInt64Mult(a,b);
+         ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:178:55: note: in definition of macro ‘SETERRQ2’
+ #define SETERRQ2(comm,ierr,s,a1,a2) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1,a2)
+                                                       ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2057:35: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (r > PETSC_MAX_INT) SETERRQ2(PETSC_COMM_SELF,PETSC_ERR_SUP,"Product of two integer %d %d overflow, you must ./configure PETSc with --with-64-bit-indices for the case you are running",a,b);
+                                   ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2059:36: warning: use of old-style cast [-Wold-style-cast]
+   if (result) *result = (PetscInt) r;
+                                    ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscIntSumError(PetscInt, PetscInt, PetscInt*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2090:22: warning: use of old-style cast [-Wold-style-cast]
+   r  =  ((PetscInt64)a) + ((PetscInt64)b);
+                      ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2090:40: warning: use of old-style cast [-Wold-style-cast]
+   r  =  ((PetscInt64)a) + ((PetscInt64)b);
+                                        ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:178:55: note: in definition of macro ‘SETERRQ2’
+ #define SETERRQ2(comm,ierr,s,a1,a2) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1,a2)
+                                                       ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2092:35: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (r > PETSC_MAX_INT) SETERRQ2(PETSC_COMM_SELF,PETSC_ERR_SUP,"Sum of two integer %d %d overflow, you must ./configure PETSc with --with-64-bit-indices for the case you are running",a,b);
+                                   ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2094:36: warning: use of old-style cast [-Wold-style-cast]
+   if (result) *result = (PetscInt) r;
+                                    ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscRandomViewFromOptions(PetscRandom, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2254:160: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscRandomViewFromOptions(PetscRandom A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                                ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscSegBufferGetInts(PetscSegBuffer, PetscInt, PetscInt* __restrict__*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2389:162: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscSegBufferGetInts(PetscSegBuffer seg,PetscInt count,PetscInt *PETSC_RESTRICT *slot) {return PetscSegBufferGet(seg,(size_t)count,(void**)slot);}
+                                                                                                                                                                  ^~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2389:176: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscSegBufferGetInts(PetscSegBuffer seg,PetscInt count,PetscInt *PETSC_RESTRICT *slot) {return PetscSegBufferGet(seg,(size_t)count,(void**)slot);}
+                                                                                                                                                                                ^~~~
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h: In function ‘PetscErrorCode PetscCitationsRegister(const char*, PetscBool*)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2426:32: note: in expansion of macro ‘CHKERRQ’
+   ierr = PetscStrlen(cit,&len);CHKERRQ(ierr);
+                                ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2427:61: note: in expansion of macro ‘CHKERRQ’
+   ierr = PetscSegBufferGet(PetscCitationsList,len,&vstring);CHKERRQ(ierr);
+                                                             ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:2428:39: note: in expansion of macro ‘CHKERRQ’
+   ierr = PetscMemcpy(vstring,cit,len);CHKERRQ(ierr);
+                                       ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:6:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:7,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscviewer.h: In function ‘PetscErrorCode PetscViewerViewFromOptions(PetscViewer, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscviewer.h:99:160: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscViewerViewFromOptions(PetscViewer A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                                ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:7:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘PetscErrorCode PetscBTMemzero(PetscInt, PetscBT)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:39:51: warning: use of old-style cast [-Wold-style-cast]
+   return PetscMemzero(array,sizeof(char)*((size_t)m/PETSC_BITS_PER_BYTE+1));
+                                                   ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘PetscErrorCode PetscBTDestroy(char**)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1013:49: warning: use of old-style cast [-Wold-style-cast]
+ #define PetscFree(a)   ((*PetscTrFree)((void*)(a),__LINE__,PETSC_FUNCTION_NAME,__FILE__) || ((a) = 0,0))
+                                                 ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:44:10: note: in expansion of macro ‘PetscFree’
+   return PetscFree(*array);
+          ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:7:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘char PetscBTLookup(PetscBT, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:54:56: warning: use of old-style cast [-Wold-style-cast]
+   BT_mask       = (char)(1 << index%PETSC_BITS_PER_BYTE);
+                                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:55:31: warning: use of old-style cast [-Wold-style-cast]
+   return (char)(BT_c & BT_mask);
+                               ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘PetscErrorCode PetscBTView(PetscInt, PetscBT, PetscViewer)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:63:50: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (!viewer) {ierr = PetscViewerASCIIGetStdout(PETSC_COMM_SELF,&viewer);CHKERRQ(ierr);}
+                                                  ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:63:75: note: in expansion of macro ‘CHKERRQ’
+   if (!viewer) {ierr = PetscViewerASCIIGetStdout(PETSC_COMM_SELF,&viewer);CHKERRQ(ierr);}
+                                                                           ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:64:51: note: in expansion of macro ‘CHKERRQ’
+   ierr = PetscViewerASCIIPushSynchronized(viewer);CHKERRQ(ierr);
+                                                   ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:7:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:66:89: warning: use of old-style cast [-Wold-style-cast]
+     ierr = PetscViewerASCIISynchronizedPrintf(viewer,"%D %d\n",i,(int)PetscBTLookup(bt,i));CHKERRQ(ierr);
+                                                                                         ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:66:92: note: in expansion of macro ‘CHKERRQ’
+     ierr = PetscViewerASCIISynchronizedPrintf(viewer,"%D %d\n",i,(int)PetscBTLookup(bt,i));CHKERRQ(ierr);
+                                                                                            ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:68:35: note: in expansion of macro ‘CHKERRQ’
+   ierr = PetscViewerFlush(viewer);CHKERRQ(ierr);
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:69:50: note: in expansion of macro ‘CHKERRQ’
+   ierr = PetscViewerASCIIPopSynchronized(viewer);CHKERRQ(ierr);
+                                                  ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘PetscErrorCode PetscBTCreate(PetscInt, char**)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:75:31: warning: use of old-style cast [-Wold-style-cast]
+   return PetscMalloc1((size_t)m/PETSC_BITS_PER_BYTE+1,array) || PetscBTMemzero(m,*array);
+                               ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:546:103: note: in definition of macro ‘PetscMalloc1’
+ #define PetscMalloc1(m1,r1) PetscMallocA(1,PETSC_FALSE,__LINE__,PETSC_FUNCTION_NAME,__FILE__,(size_t)(m1)*sizeof(**(r1)),(r1))
+                                                                                                       ^~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:546:105: warning: use of old-style cast [-Wold-style-cast]
+ #define PetscMalloc1(m1,r1) PetscMallocA(1,PETSC_FALSE,__LINE__,PETSC_FUNCTION_NAME,__FILE__,(size_t)(m1)*sizeof(**(r1)),(r1))
+                                                                                                         ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:75:10: note: in expansion of macro ‘PetscMalloc1’
+   return PetscMalloc1((size_t)m/PETSC_BITS_PER_BYTE+1,array) || PetscBTMemzero(m,*array);
+          ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:7:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘char PetscBTLookupSet(PetscBT, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:85:56: warning: use of old-style cast [-Wold-style-cast]
+   BT_mask       = (char)(1 << index%PETSC_BITS_PER_BYTE);
+                                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:86:40: warning: use of old-style cast [-Wold-style-cast]
+   array[BT_idx] = (char)(BT_c | BT_mask);
+                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:87:38: warning: use of old-style cast [-Wold-style-cast]
+   return        (char)(BT_c & BT_mask);
+                                      ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘PetscErrorCode PetscBTSet(PetscBT, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:97:56: warning: use of old-style cast [-Wold-style-cast]
+   BT_mask       = (char)(1 << index%PETSC_BITS_PER_BYTE);
+                                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:98:40: warning: use of old-style cast [-Wold-style-cast]
+   array[BT_idx] = (char)(BT_c | BT_mask);
+                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘PetscErrorCode PetscBTNegate(PetscBT, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:105:65: warning: use of old-style cast [-Wold-style-cast]
+   const char     BT_mask = (char)(1 << index%PETSC_BITS_PER_BYTE);
+                                                                 ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘char PetscBTLookupClear(PetscBT, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:118:56: warning: use of old-style cast [-Wold-style-cast]
+   BT_mask       = (char)(1 << index%PETSC_BITS_PER_BYTE);
+                                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:119:41: warning: use of old-style cast [-Wold-style-cast]
+   array[BT_idx] = (char)(BT_c & ~BT_mask);
+                                         ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:120:31: warning: use of old-style cast [-Wold-style-cast]
+   return (char)(BT_c & BT_mask);
+                               ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h: In function ‘PetscErrorCode PetscBTClear(PetscBT, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:130:56: warning: use of old-style cast [-Wold-style-cast]
+   BT_mask       = (char)(1 << index%PETSC_BITS_PER_BYTE);
+                                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscbt.h:131:41: warning: use of old-style cast [-Wold-style-cast]
+   array[BT_idx] = (char)(BT_c & ~BT_mask);
+                                         ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:8:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h: In function ‘long unsigned int PetscHash(PetscTable, long unsigned int)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:19:31: warning: use of old-style cast [-Wold-style-cast]
+   return(x%(unsigned long)ta->tablesize);
+                               ^~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h: In function ‘long unsigned int PetscHashStep(PetscTable, long unsigned int)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:24:46: warning: use of old-style cast [-Wold-style-cast]
+   return(1+(x%(unsigned long)(ta->tablesize-1)));
+                                              ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h: In function ‘PetscErrorCode PetscTableAdd(PetscTable, PetscInt, PetscInt, InsertMode)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:41:65: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       i,hash = (PetscInt)PetscHash(ta,(unsigned long)key);
+                                                                 ^~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:41:68: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       i,hash = (PetscInt)PetscHash(ta,(unsigned long)key);
+                                                                    ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:42:71: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       hashstep = (PetscInt)PetscHashStep(ta,(unsigned long)key);
+                                                                       ^~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:42:74: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       hashstep = (PetscInt)PetscHashStep(ta,(unsigned long)key);
+                                                                          ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:45:25: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (key <= 0) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"key <= 0");
+                         ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:178:55: note: in definition of macro ‘SETERRQ2’
+ #define SETERRQ2(comm,ierr,s,a1,a2) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1,a2)
+                                                       ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:46:34: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (key > ta->maxkey) SETERRQ2(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"key %D is greater than largest key allowed %D",key,ta->maxkey);
+                                  ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:47:22: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (!data) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"Null data");
+                      ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:66:17: note: in expansion of macro ‘PETSC_COMM_SELF’
+         SETERRQ(PETSC_COMM_SELF,PETSC_ERR_SUP,"Unsupported InsertMode");
+                 ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:75:55: note: in expansion of macro ‘CHKERRQ’
+         ierr = PetscTableAddExpand(ta,key,data,imode);CHKERRQ(ierr);
+                                                       ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:81:11: note: in expansion of macro ‘PETSC_COMM_SELF’
+   SETERRQ(PETSC_COMM_SELF,PETSC_ERR_COR,"Full table");
+           ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:8:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h: In function ‘PetscErrorCode PetscTableAddCount(PetscTable, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:88:65: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       i,hash = (PetscInt)PetscHash(ta,(unsigned long)key);
+                                                                 ^~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:88:68: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       i,hash = (PetscInt)PetscHash(ta,(unsigned long)key);
+                                                                    ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:89:71: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       hashstep = (PetscInt)PetscHashStep(ta,(unsigned long)key);
+                                                                       ^~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:89:74: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       hashstep = (PetscInt)PetscHashStep(ta,(unsigned long)key);
+                                                                          ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:92:25: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (key <= 0) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"key <= 0");
+                         ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:178:55: note: in definition of macro ‘SETERRQ2’
+ #define SETERRQ2(comm,ierr,s,a1,a2) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1,a2)
+                                                       ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:93:34: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (key > ta->maxkey) SETERRQ2(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"key %D is greater than largest key allowed %D",key,ta->maxkey);
+                                  ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:104:49: note: in expansion of macro ‘CHKERRQ’
+         ierr = PetscTableAddCountExpand(ta,key);CHKERRQ(ierr);
+                                                 ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:110:11: note: in expansion of macro ‘PETSC_COMM_SELF’
+   SETERRQ(PETSC_COMM_SELF,PETSC_ERR_COR,"Full table");
+           ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:8:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h: In function ‘PetscErrorCode PetscTableFind(PetscTable, PetscInt, PetscInt*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:123:63: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       hash = (PetscInt)PetscHash(ta,(unsigned long)key);
+                                                               ^~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:123:66: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       hash = (PetscInt)PetscHash(ta,(unsigned long)key);
+                                                                  ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:124:71: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       hashstep = (PetscInt)PetscHashStep(ta,(unsigned long)key);
+                                                                       ^~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:124:74: warning: use of old-style cast [-Wold-style-cast]
+   PetscInt       hashstep = (PetscInt)PetscHashStep(ta,(unsigned long)key);
+                                                                          ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:128:25: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (key <= 0) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"Key <= 0");
+                         ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:178:55: note: in definition of macro ‘SETERRQ2’
+ #define SETERRQ2(comm,ierr,s,a1,a2) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1,a2)
+                                                       ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscctable.h:129:34: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (key > ta->maxkey) SETERRQ2(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"key %D is greater than largest key allowed %D",key,ta->maxkey);
+                                  ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:10:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscdraw.h: In function ‘PetscErrorCode PetscDrawViewFromOptions(PetscDraw, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscdraw.h:25:156: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscDrawViewFromOptions(PetscDraw A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                            ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscdraw.h: In function ‘int PetscDrawRealToColor(PetscReal, PetscReal, PetscReal)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscdraw.h:98:93: warning: use of old-style cast [-Wold-style-cast]
+   return PETSC_DRAW_BASIC_COLORS + (int)((255-PETSC_DRAW_BASIC_COLORS)*(value-min)/(max-min));
+                                                                                             ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:12:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsf.h: In function ‘PetscErrorCode PetscSFViewFromOptions(PetscSF, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsf.h:69:152: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscSFViewFromOptions(PetscSF A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                        ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:9:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscmat.h:6,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdm.h:6,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h: In function ‘PetscErrorCode ISViewFromOptions(IS, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:64:142: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode ISViewFromOptions(IS A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                              ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h: In function ‘PetscErrorCode ISLocalToGlobalMappingViewFromOptions(ISLocalToGlobalMapping, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:142:180: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode ISLocalToGlobalMappingViewFromOptions(ISLocalToGlobalMapping A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                                                    ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h: In function ‘PetscErrorCode PetscLayoutFindOwner(PetscLayout, PetscInt, PetscInt*)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:248:66: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (!((map->n >= 0) && (map->N >= 0) && (map->range))) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_WRONGSTATE,"PetscLayoutSetUp() must be called first");
+                                                                  ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:149:52: note: in definition of macro ‘SETERRQ1’
+ #define SETERRQ1(comm,ierr,s,a1) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1)
+                                                    ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:249:41: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (idx < 0 || idx > map->N) SETERRQ1(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"Index %D is out of range",idx);
+                                         ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:250:39: note: in expansion of macro ‘CHKERRQ’
+   ierr = MPI_Comm_size(map->comm,&hi);CHKERRQ(ierr);
+                                       ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h: In function ‘PetscErrorCode PetscLayoutFindOwnerIndex(PetscLayout, PetscInt, PetscInt*, PetscInt*)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:95:48: note: in definition of macro ‘SETERRQ’
+ #define SETERRQ(comm,ierr,s) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s)
+                                                ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:285:66: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (!((map->n >= 0) && (map->N >= 0) && (map->range))) SETERRQ(PETSC_COMM_SELF,PETSC_ERR_ARG_WRONGSTATE,"PetscLayoutSetUp() must be called first");
+                                                                  ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:149:52: note: in definition of macro ‘SETERRQ1’
+ #define SETERRQ1(comm,ierr,s,a1) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1)
+                                                    ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:286:41: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (idx < 0 || idx > map->N) SETERRQ1(PETSC_COMM_SELF,PETSC_ERR_ARG_OUTOFRANGE,"Index %D is out of range",idx);
+                                         ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:287:39: note: in expansion of macro ‘CHKERRQ’
+   ierr = MPI_Comm_size(map->comm,&hi);CHKERRQ(ierr);
+                                       ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:9:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscmat.h:6,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdm.h:6,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h: In function ‘PetscErrorCode PetscSectionViewFromOptions(PetscSection, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscis.h:362:162: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscSectionViewFromOptions(PetscSection A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                                  ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscmat.h:6:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdm.h:6,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h: In function ‘PetscErrorCode VecViewFromOptions(Vec, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:152:142: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode VecViewFromOptions(Vec A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                              ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h: In function ‘PetscErrorCode VecScatterViewFromOptions(VecScatter, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:351:158: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode VecScatterViewFromOptions(VecScatter A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                              ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h: In function ‘PetscErrorCode VecGetArrayPair(Vec, Vec, PetscScalar**, PetscScalar**)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:475:28: note: in expansion of macro ‘CHKERRQ’
+   ierr = VecGetArray(y,yv);CHKERRQ(ierr);
+                            ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscmat.h:6:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdm.h:6,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:477:52: warning: use of old-style cast [-Wold-style-cast]
+     ierr = VecGetArrayRead(x,(const PetscScalar **)xv);CHKERRQ(ierr);
+                                                    ^~
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:477:56: note: in expansion of macro ‘CHKERRQ’
+     ierr = VecGetArrayRead(x,(const PetscScalar **)xv);CHKERRQ(ierr);
+                                                        ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h: In function ‘PetscErrorCode VecRestoreArrayPair(Vec, Vec, PetscScalar**, PetscScalar**)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:509:32: note: in expansion of macro ‘CHKERRQ’
+   ierr = VecRestoreArray(y,yv);CHKERRQ(ierr);
+                                ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscmat.h:6:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdm.h:6,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:511:56: warning: use of old-style cast [-Wold-style-cast]
+     ierr = VecRestoreArrayRead(x,(const PetscScalar **)xv);CHKERRQ(ierr);
+                                                        ^~
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:134:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:511:60: note: in expansion of macro ‘CHKERRQ’
+     ierr = VecRestoreArrayRead(x,(const PetscScalar **)xv);CHKERRQ(ierr);
+                                                            ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h: In function ‘PetscErrorCode VecSetErrorIfLocked(Vec, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: note: in definition of macro ‘MPI_COMM_SELF’
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:484:79: note: in expansion of macro ‘PETSC_COMM_SELF’
+ #define CHKERRQ(ierr)          do {if (PetscUnlikely(ierr)) return PetscError(PETSC_COMM_SELF,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_REPEAT," ");} while (0)
+                                                                               ^~~~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:527:31: note: in expansion of macro ‘CHKERRQ’
+   ierr = VecLockGet(x,&state);CHKERRQ(ierr);
+                               ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:1292:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscbag.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:5,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include/mpi.h:289:35: warning: use of old-style cast [-Wold-style-cast]
+ #define MPI_COMM_SELF  ((MPI_Comm)0x44000001)
+                                   ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscerror.h:149:52: note: in definition of macro ‘SETERRQ1’
+ #define SETERRQ1(comm,ierr,s,a1) return PetscError(comm,__LINE__,PETSC_FUNCTION_NAME,__FILE__,ierr,PETSC_ERROR_INITIAL,s,a1)
+                                                    ^~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscsys.h:424:25: note: in expansion of macro ‘MPI_COMM_SELF’
+ #define PETSC_COMM_SELF MPI_COMM_SELF
+                         ^~~~~~~~~~~~~
+/home/yantao/PETSc/petsc-3.11.1/include/petscvec.h:528:28: note: in expansion of macro ‘PETSC_COMM_SELF’
+   if (state != 0) SETERRQ1(PETSC_COMM_SELF,PETSC_ERR_ARG_WRONGSTATE," Vec is already locked for read-only or read/write access, argument # %d",arg);
+                            ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscdm.h:6:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:4,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscmat.h: In function ‘PetscErrorCode MatViewFromOptions(Mat, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscmat.h:202:144: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode MatViewFromOptions(Mat A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscmat.h: In function ‘PetscErrorCode MatPartitioningViewFromOptions(MatPartitioning, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscmat.h:1371:166: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode MatPartitioningViewFromOptions(MatPartitioning A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                                      ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:4:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscdm.h: In function ‘PetscErrorCode DMViewFromOptions(DM, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscdm.h:98:142: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode DMViewFromOptions(DM A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                              ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:6:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscpf.h: In function ‘PetscErrorCode PFViewFromOptions(PF, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscpf.h:57:142: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PFViewFromOptions(PF A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                              ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:7:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscao.h: In function ‘PetscErrorCode AOViewFromOptions(AO, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscao.h:52:142: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode AOViewFromOptions(AO A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                              ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscdmda.h:8:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:13,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscfe.h: In function ‘PetscErrorCode PetscSpaceViewFromOptions(PetscSpace, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscfe.h:51:156: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscSpaceViewFromOptions(PetscSpace A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                            ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscfe.h: In function ‘PetscErrorCode PetscDualSpaceViewFromOptions(PetscDualSpace, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscfe.h:105:164: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscDualSpaceViewFromOptions(PetscDualSpace A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                                    ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscfe.h: In function ‘PetscErrorCode PetscFEViewFromOptions(PetscFE, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscfe.h:170:150: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscFEViewFromOptions(PetscFE A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                      ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscdmplex.h:11:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:16,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscfv.h: In function ‘PetscErrorCode PetscLimiterViewFromOptions(PetscLimiter, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscfv.h:37:160: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscLimiterViewFromOptions(PetscLimiter A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                                ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscfv.h: In function ‘PetscErrorCode PetscFVViewFromOptions(PetscFV, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscfv.h:67:150: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscFVViewFromOptions(PetscFV A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                      ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:16:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscdmplex.h: In function ‘PetscErrorCode PetscPartitionerViewFromOptions(PetscPartitioner, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscdmplex.h:40:168: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscPartitionerViewFromOptions(PetscPartitioner A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                                        ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:24:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscds.h: In function ‘PetscErrorCode PetscDSViewFromOptions(PetscDS, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscds.h:50:150: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PetscDSViewFromOptions(PetscDS A,PetscObject B,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,B,name);}
+                                                                                                                                                      ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscksp.h:6:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscsnes.h:6,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscts.h:7,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:29,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscpc.h: In function ‘PetscErrorCode PCViewFromOptions(PC, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscpc.h:81:142: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode PCViewFromOptions(PC A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                              ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscpc.h: In function ‘PetscErrorCode PCMGSetCyclesOnLevel(PC, PetscInt, PetscInt)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscpc.h:353:186: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_DEPRECATED("Use PCMGSetCycleTypeOnLevel") PETSC_STATIC_INLINE PetscErrorCode PCMGSetCyclesOnLevel(PC pc,PetscInt l,PetscInt t) {return PCMGSetCycleTypeOnLevel(pc,l,(PCMGCycleType)t);}
+                                                                                                                                                                                          ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscsnes.h:6:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petscts.h:7,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:29,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscksp.h: In function ‘PetscErrorCode KSPViewFromOptions(KSP, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscksp.h:335:144: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode KSPViewFromOptions(KSP A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petscts.h:7:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:29,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsnes.h: In function ‘PetscErrorCode SNESViewFromOptions(SNES, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscsnes.h:92:146: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode SNESViewFromOptions(SNES A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                  ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:29:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petscts.h: In function ‘PetscErrorCode TSViewFromOptions(TS, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscts.h:560:142: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode TSViewFromOptions(TS A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                              ^
+/home/yantao/PETSc/petsc-3.11.1/include/petscts.h: In function ‘PetscErrorCode TSTrajectoryViewFromOptions(TSTrajectory, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petscts.h:561:162: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode TSTrajectoryViewFromOptions(TSTrajectory A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                                  ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:30:0,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petsctao.h: In function ‘PetscErrorCode TaoViewFromOptions(Tao, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petsctao.h:128:144: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode TaoViewFromOptions(Tao A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                ^
+In file included from /home/yantao/PETSc/petsc-3.11.1/include/petsctao.h:242:0,
+                 from /home/yantao/PETSc/petsc-3.11.1/include/petsc.h:30,
+                 from ./MMA.h:4,
+                 from MTO_TFS.C:9:
+/home/yantao/PETSc/petsc-3.11.1/include/petsctaolinesearch.h: In function ‘PetscErrorCode TaoLineSearchViewFromOptions(TaoLineSearch, PetscObject, const char*)’:
+/home/yantao/PETSc/petsc-3.11.1/include/petsctaolinesearch.h:40:164: warning: use of old-style cast [-Wold-style-cast]
+ PETSC_STATIC_INLINE PetscErrorCode TaoLineSearchViewFromOptions(TaoLineSearch A,PetscObject obj,const char name[]) {return PetscObjectViewFromOptions((PetscObject)A,obj,name);}
+                                                                                                                                                                    ^
+In file included from sensitivity.H:11:0,
+                 from MTO_TFS.C:36:
+filter_sens.H: In function ‘int main(int, char**)’:
+filter_sens.H:36:43: warning: ‘eta5’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        drho[i]=del*Foam::exp(-del*(1-xp[i]/eta5))+Foam::exp(-del);
+In file included from MTO_TFS.C:25:0:
+opt_initialization.H:10:23: note: ‘eta5’ was declared here
+ scalar n(0),N(0),eta0,eta5,eta1,y0,y5;
+                       ^~~~
+mpic++ -std=c++11 -m64 -Dlinux64 -DWM_ARCH_OPTION=64 -DWM_DP -DWM_LABEL_SIZE=32 -Wall -Wextra -Wold-style-cast -Wnon-virtual-dtor -Wno-unused-parameter -Wno-invalid-offsetof -Wno-attributes -O3  -DNoRepository -ftemplate-depth-100 -I/opt/openfoam6/src/TurbulenceModels/turbulenceModels/lnInclude -I/opt/openfoam6/src/TurbulenceModels/incompressible/lnInclude -I/opt/openfoam6/src/TurbulenceModels/compressible/lnInclude -I/opt/openfoam6/src/transportModels -I/opt/openfoam6/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/openfoam6/src/finiteVolume/lnInclude -I/opt/openfoam6/src/meshTools/lnInclude -I/home/yantao/PETSc/petsc-3.11.1/include -I/home/yantao/PETSc/petsc-3.11.1/include/mpiuni -I/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/include  -IlnInclude -I. -I/opt/openfoam6/src/OpenFOAM/lnInclude -I/opt/openfoam6/src/OSspecific/POSIX/lnInclude   -fPIC -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPInt32Opt/adjointOutletPressureHeat/adjointOutletPressureHeatFvPatchScalarField.o Make/linux64GccDPInt32Opt/adjointOutletVelocityHeat/adjointOutletVelocityHeatFvPatchVectorField.o Make/linux64GccDPInt32Opt/adjointOutletPressurePower/adjointOutletPressurePowerFvPatchScalarField.o Make/linux64GccDPInt32Opt/adjointOutletVelocityPower/adjointOutletVelocityPowerFvPatchVectorField.o Make/linux64GccDPInt32Opt/tractionDisplacement/tractionDisplacementFvPatchVectorField.o Make/linux64GccDPInt32Opt/MTO_TFS.o -L/opt/openfoam6/platforms/linux64GccDPInt32Opt/lib \
+    -lturbulenceModels -lincompressibleTurbulenceModels -lincompressibleTransportModels -lfiniteVolume -lmeshTools -lfvOptions -L/home/yantao/PETSc/petsc-3.11.1/arch-linux2-c-debug/lib -lpetsc -L/home/yantao/OpenFOAM/yantao-6/platforms/linux64GccDPInt32Opt/lib -lMMA_yu -lOpenFOAM -ldl  \
+     -lm -o /home/yantao/OpenFOAM/yantao-6/platforms/linux64GccDPInt32Opt/bin/MTO_TFS
+/usr/bin/ld: warning: libmpi.so.20, needed by /home/yantao/OpenFOAM/yantao-6/platforms/linux64GccDPInt32Opt/lib/libMMA_yu.so, may conflict with libmpi.so.0
