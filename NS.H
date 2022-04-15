@@ -59,7 +59,7 @@ while (simple.correctNonOrthogonal())
 
     if (simple.finalNonOrthogonalIter())
     {
-        phi = phiHbyA - pEqn.flux();
+        phi = phiHbyA - pEqn.flux();          // fvc::flux(U)  // 通量的值， 该句等同于fvc::interpolate(U) & mesh.Sf()
     }
 }
 
