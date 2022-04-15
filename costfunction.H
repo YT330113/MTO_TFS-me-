@@ -25,15 +25,15 @@ reduce(PowerDiss, sumOp<scalar>());
 if (Pstream::master())
 { 
    ofstream outfile1("VoluseChange.txt",std::ios::app);
-   outfile1<<V<<"\n";
+   outfile1<<runTime.timeName()<<"    "<<V<<"\n";
    outfile1.close();
 
    ofstream outfile2("PowerDissRatio.txt",std::ios::app);
-   outfile2<<PowerDiss<<"\n";
+   outfile2<<runTime.timeName()<<"    "<<PowerDiss<<"\n";
    outfile2.close(); 
 
    ofstream outfile3("MeanT.txt",std::ios::app);
-   outfile3<<MeanT<<"\n";
+   outfile3<<runTime.timeName()<<"    "<<MeanT<<"\n";
    outfile3.close(); 
 
    ofstream outfile4("Time.txt",std::ios::app);
@@ -41,6 +41,6 @@ if (Pstream::master())
    outfile4.close();   
 
    ofstream outfile5("ComplianceRatio.txt",std::ios::app);
-   outfile5<<C<<"\n";
+   outfile5<<runTime.timeName()<<"    "<<C<<"\n";
    outfile5.close();  
 }

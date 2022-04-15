@@ -1,9 +1,9 @@
 Info<< "Initialization\n" << endl;
-std::remove("Voluse.txt");
+std::remove("VoluseChange.txt");
 std::remove("Time.txt");
 std::remove("MeanT.txt"); 
-std::remove("PowerDiss.txt"); 
-std::remove("Compliance.txt"); 
+std::remove("PowerDissRatio.txt"); 
+std::remove("ComplianceRatio.txt"); 
 
 int i=0,opt=0;
 double del=0;

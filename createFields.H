@@ -30,6 +30,7 @@ dimensionedScalar b1("b1", dimensionSet(0,2,-2,-2,0,0,0),1.0);
 Switch solid_area(optProperties.lookup("solid_area"));
 Switch fluid_area(optProperties.lookup("fluid_area"));
 Switch test_area(optProperties.lookup("test_area"));
+dimensionedVector omega_vector(optProperties.lookup("omega_vector"));
 
 Info<< "Reading pseudo-density field\n" << endl;
 volScalarField xp
