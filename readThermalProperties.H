@@ -56,7 +56,7 @@ Info<< "Reading field Tb\n" << endl;
        mesh
    ); 
 volScalarField T2(T);
-volScalarField fsensMeanT
+volScalarField fsensMeanT                                                       // 定义体标量场fsensMeanT，平均温度对x的灵敏度
 (
     IOobject
     (
@@ -66,7 +66,7 @@ volScalarField fsensMeanT
         IOobject::NO_READ,
         IOobject::AUTO_WRITE
     ),
-    -alphaMax*(1+qu)*qu/((qu+xh)*(qu+xh))*(U&Ub),
+    -alphaMax*(1+qu)*qu/((qu+xh)*(qu+xh))*(U&Ub),   // 平均温度的灵敏度初始化
     zeroGradientFvPatchScalarField::typeName
 );
-volScalarField fsenshMeanT(fsensMeanT);
+volScalarField fsenshMeanT(fsensMeanT);                      // 定义体标量场fsenshMeanT，平均温度对xh的灵敏度
