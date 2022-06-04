@@ -45,14 +45,20 @@ volVectorField U
     mesh
 );
 #include "createPhi.H"
+
+/*设置压力参考*/
 label pRefCell = 0;
 scalar pRefValue = 0.0;
-setRefCell(p, simple.dict(), pRefCell, pRefValue);
+setRefCell(p, simple.dict(), pRefCell, pRefValue);//表示从/system/fvsolution/中的SIMPLE部分设置的pRefCell, pRefValue，没有设置采用默认值。
+
 mesh.setFluxRequired(p.name());
-singlePhaseTransportModel laminarTransport(U, phi);
+
+
+singlePhaseTransportModel laminarTransport(U, phi);//单相输运模型中的粘度模型，此处仅为构造粘度模型，为了让用户在算例的/constant/transportantProperties中设置transportModel
+/*autoPtr是openFOAM的只能指针，格式为autoptr<类名称>对象名 */
 autoPtr<incompressible::turbulenceModel> turbulence
 (
-    incompressible::turbulenceModel::New(U, phi, laminarTransport)
+    incompressible::turbulenceModel::New(U, phi, laminarTransport)//表示指向选定的RANS模型
 );
 //****************************************************************//adj-fluid-a
 Info<< "Reading field pa\n" << endl;
