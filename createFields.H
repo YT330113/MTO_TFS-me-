@@ -76,8 +76,8 @@ labelList cells_solid,cells_fluid,cells_test;               // 创建列表，�
 if(solid_area)                                                                         // solid_area是个bool型变量，yes/no 
 {
   word zoneName="solid_area";
-  label zoneID=mesh.cellZones().findZoneID(zoneName);
-  cells_solid=mesh.cellZones()[zoneID];
+  label zoneID=mesh.cellZones().findZoneID(zoneName);// zoneID是这个zone的ID，比如solid_area是0,fluid_area是1
+  cells_solid=mesh.cellZones()[zoneID];                                     // 找到solid_area域的所有单元序号列表
   //相当于labelList& cells _solid= mesh.cellZones()[mesh.cellZones().findZoneID("zoneName")];
   forAll(cells_solid, i)
   {
@@ -122,12 +122,13 @@ volScalarField gsenshVol(xh);                                          // 定义
 
 /* 查找边界处的网格 */ 
 // find the cells on the boundary
-dictionary conFunc = mesh.solutionDict().subDict("constraintFunctionDict_flow");
-int nObjPatch =conFunc.lookupOrDefault<scalar>("numberConstraintPatches",2);
-wordList conPatchNames = conFunc.lookup("constraintPatchesNames");
-label conPatchList[nObjPatch];//patch list，conPatchList在“costunction”计算能量耗散用到了
+dictionary conFunc = mesh.solutionDict().subDict("constraintFunctionDict_flow");  // 查找fvSolution字典下的“constraintFunctionDict_flow”栏
+int nObjPatch =conFunc.lookupOrDefault<scalar>("numberConstraintPatches",2);   // 指目标边界面的个数，默认就是inlet和outlet两个面
+wordList conPatchNames = conFunc.lookup("constraintPatchesNames");   // 边界面的名字,conPatchNames是个列表，其值为(inlet outlet)
+label conPatchList[nObjPatch];  //一个label数组，有两个:conPatchList[0],conPatchList[1]，conPatchList在“costunction”计算能量耗散用到
 int iLoop;
-for(iLoop=0; iLoop<nObjPatch; iLoop++)
+for(iLoop=0; iLoop<nObjPatch; iLoop++)  // 这一步是为了获得需要计算能力那个耗散的patch的ID号
 {
-    conPatchList[iLoop]=mesh.boundaryMesh().findPatchID(conPatchNames[iLoop]);
+    conPatchList[iLoop]=mesh.boundaryMesh().findPatchID(conPatchNames[iLoop]);// mesh.boundaryMesh().findPatchID是查找某个大面的ID，
+                                                                                                                                                                            //比如说inlet的ID是0，outlet的ID是1...
 }   

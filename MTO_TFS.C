@@ -21,7 +21,11 @@ int main(int argc, char *argv[])
     #include "readTransportProperties.H" //一些物理场的声明
     #include "readThermalProperties.H" //一些物理场的声明
     #include "readMechanicalProperties.H" //一些物理场的声明
+<<<<<<< HEAD
      #include "initContinuityErrs.H"// 用于声明与初始化连续性误差，初始误差为0
+=======
+     #include "initContinuityErrs.H" // 累计误差（没有用到）
+>>>>>>> 68d448599c810c387334e453522b53f37b270c14
     #include "opt_initialization.H"//一些参数的声明和初始化
     while (simple.loop(runTime))
     {

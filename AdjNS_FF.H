@@ -25,7 +25,7 @@ for(i=0;i<30;i++)
   volVectorField HbyAa("HbyAa", Ua);
   HbyAa = rAUa*UaEqn.H();
   tUaEqn.clear();          
-  surfaceScalarField phiHbyAa("phiHbyAa", fvc::flux(HbyAa));
+  surfaceScalarField phiHbyAa("phiHbyAa", fvc::flux(HbyAa));                    // fvc::flux(U)  // 通量的值， 该句等同于fvc::interpolate(U) & mesh.Sf()
   adjustPhi(phiHbyAa, Ua, pa);
   
   tmp<volScalarField> rAtUa(rAUa);

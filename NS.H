@@ -59,7 +59,7 @@ while (simple.correctNonOrthogonal())//非正交很严重时才用，且不超�
 
     if (simple.finalNonOrthogonalIter())计算到非正交修正的最后一部时按照3-188计算通量，
     {
-        phi = phiHbyA - pEqn.flux();
+        phi = phiHbyA - pEqn.flux();          // fvc::flux(U)  // 通量的值， 该句等同于fvc::interpolate(U) & mesh.Sf()
     }
 }
 

@@ -5,12 +5,12 @@ std::remove("MeanT.txt");
 std::remove("PowerDissRatio.txt"); 
 std::remove("ComplianceRatio.txt"); 
 
-int i=0,opt=0;
-double del=0;
-scalar n(0),N(0),eta0,eta5,eta1,y0,y5;
-n=x.size();//n:length of x in the i-th core
-N=x.size();//N:design freedom
-reduce(N, sumOp<scalar>()); 
+int i=0,opt=0;                                                                          // opt用于优化过程参数的放松，在"update.H"里opt++
+double del=0;                                                                         // 在"filter_x.H"和"filter_sens.H""diff.C"里出现过
+scalar n(0),N(0),eta0,eta5,eta1,y0,y5;                           //  同上 
+n=x.size();                                                                               //  n:length of x in the i-th core
+N=x.size();                                                                               //  N:design freedom
+reduce(N, sumOp<scalar>());                                         // 与处理器间通信有关
 
 scalar C(0),V(0),area=gSum(mesh.V()),MeanT(0),PowerDiss(0);//area is the  sum of  element  volume
 double len=std::pow(area/N, 1.0/3);

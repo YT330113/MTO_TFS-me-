@@ -58,7 +58,9 @@
         "cfenv": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "*.ipp": "cpp"
+        "*.ipp": "cpp",
+        "solution.C": "cpp",
+        "dictionary.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
